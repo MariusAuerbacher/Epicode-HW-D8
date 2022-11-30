@@ -114,7 +114,7 @@ let carsForRent = ["myCar", "clone1", "clone2", "clone3", "clone4", "clone5"]
  Remove the first and the last car from the carsForRent array.
 */
 
-let carsForRent = ["myCar", "clone1", "clone2", "clone3", "clone4", "clone5"]
+let carsForRent1 = ["myCar", "clone1", "clone2", "clone3", "clone4", "clone5"]
 carsForRent.pop(0);
 carsForRent.splice(0, 1);
 console.log(carsForRent);
@@ -123,7 +123,7 @@ console.log(carsForRent);
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
 
-let myCar = {
+let myCar1 = {
   brand: "Toyota",
   model: "Land Cruise",
   licensePlate: "R90219"
@@ -142,7 +142,7 @@ let carsForSale = [
   { brand: "Mitsubishi", model: "Pajero", licensePlate: "R40329"},
   { brand: "Nissan", model: "Patrol", licensePlate: "R32102"}
   ]
-let carsForRent = ["myCar", "clone1", "clone2", "clone3", "clone4", "clone5"]
+let carsForRent2 = ["myCar", "clone1", "clone2", "clone3", "clone4", "clone5"]
 let totalCars = carsForSale.concat(carsForRent);
 console.log(totalCars)
 
@@ -151,7 +151,7 @@ console.log(totalCars)
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-let carsForSale = [
+let carsForSale1 = [
   { brand: "Toyota", model: "Land Cruiser", licensePlate: "R23012"},
   { brand: "Mitsubishi", model: "Pajero", licensePlate: "R40329"},
   { brand: "Nissan", model: "Patrol", licensePlate: "R32102"}
